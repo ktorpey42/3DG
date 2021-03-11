@@ -88,8 +88,14 @@ body {
 }
 */
 .content-wrapper h1 {
-  text-align: center;
-
+	  text-align: center;
+	  font-size: 30px;
+    line-height: 50px;
+    font-weight: 100;
+    color: black;
+    
+    
+    text-shadow: 2px 2px 8px #111;
 
 
 }
@@ -379,10 +385,11 @@ hr {
   transform-style: preserve-3d;
   animation: turn 22s linear infinite;
 }
-
+/*
 @media (prefers-reduced-motion: reduce) {
   .cube {
     animation: none;
     transform: rotate3d(1, 1, 0, 45deg);
   }
 }
+*/
